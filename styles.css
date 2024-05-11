@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.banner{
+	width: 100%;
+	overflow-y: auto;
+    height: 1500px;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(Howlwadaag.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.banner .logo {
+	position: absolute;
+	width: 200px;
+	margin-top: 15px;
+	left: 50%;
+  	transform: translateX(-50%);
+}
+.banner .test {
+	position: absolute; /* Add this line */
+	top: 25%; /* Add this line */
+	left: 50%; /* Add this line */
+	transform: translate(-50%, -50%); /* Add this line */
+	color: white;
+	text-align: center;
+}
+.banner p{
+	position: absolute; /* Add this line */
+	top: 30%; /* Add this line */
+	margin-left: 10px;
+	margin-right: 10px;
+	word-spacing: 1px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: sans-serif;
+  text-align-last: center;
+	color: white;
+}
+.banner .banner2 p{
+	position: absolute; /* Add this line */
+	top: 55%; /* Add this line */
+	margin-left: 10px;
+	margin-right: 10px;
+	word-spacing: 1px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: sans-serif;
+  text-align-last: center;
+	color: white;
+}
+.banner .banner2 ul{
+	position: absolute; /* Add this line */
+	top: 65%; /* Add this line */
+	margin-left: 100px;
+	margin-right: 100px;
+	word-spacing: 1px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+  justify-content: center;
+}
+
+.banner .banner3 p{
+	position: absolute; /* Add this line */
+	top: 700px; /* Add this line */
+	margin-left: 10px;
+	margin-right: 10px;
+	word-spacing: 1px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: sans-serif;
+  text-align-last: center;
+	color: white;
+}
+
+.banner .banner3 ul{
+	position: absolute; /* Add this line */
+	top: 800px; /* Add this line */
+	margin-left: 100px;
+	margin-right: 100px;
+	word-spacing: 1px;
+	line-height: 1.5;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: white;
+  justify-content: center;
+}
